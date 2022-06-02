@@ -1,0 +1,755 @@
+@media all and (max-width: 600px) {
+  .upper-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header-section-logo-wrapper {
+    width: 100%;
+  }
+
+  .header-section-logo-wrapper img {
+    width: 100%;
+  }
+
+  .header-section-logo {
+    padding-top: 1.1rem;
+    padding-bottom: 0.3rem;
+  }
+
+  .header-section-nav-ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+  }
+
+  .header-section-nav-ul li {
+    padding: 0.3rem 0.7rem;
+    border-radius: 1px;
+  }
+
+  .header-section-nav-ul li a {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1rem;
+  }
+
+  #lower-nav h1 {
+    text-align: center;
+    margin: 0 1rem 1.5rem 1rem;
+    font-size: 2rem;
+    font-family: "Bad Script", cursive;
+  }
+
+  #invitation {
+    text-align: center;
+    color: #033726;
+    background: url("/src/img/background-home.jpg");
+    background-size: cover;
+    font-size: 1rem;
+    padding: 1rem 0;
+  }
+
+  .invitation-wrapper {
+    background-color: rgba(250, 235, 215, 0.6);
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 10px rgba(250, 235, 215, 0.5);
+    margin: 0 1rem;
+    padding: 0.5rem 0;
+  }
+
+  .invitation-wrapper-line {
+    border-top: 3px solid #033726;
+    margin: 0 9rem;
+  }
+
+  #bests {
+    background-color: #033726;
+    padding: 3rem 1rem;
+    color: white;
+  }
+
+  .bests-header p {
+    font-size: 1rem;
+  }
+
+  .bests-persons {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+  }
+
+  .bests-person:first-child {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+
+  .bests-person:last-child {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .bests-person-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .bests-person-info h3 {
+    text-align: center;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+  }
+
+  .bests-person-image {
+    border: 3px solid white;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    margin: 5px;
+    width: 50%;
+  }
+
+  .bests-person {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .bests-header-line {
+    border-top: 3px solid white;
+    margin: 1.3rem 9rem 0;
+  }
+
+  #program {
+    text-align: center;
+    color: #033726;
+    background: url("/src/img/background-home.jpg");
+    background-size: cover;
+    font-size: 1rem;
+    padding: 1rem 0;
+  }
+
+  .program-wrapper {
+    background-color: rgba(250, 235, 215, 0.6);
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 10px rgba(250, 235, 215, 0.5);
+    margin: 0 1rem;
+    padding: 0.5rem 0;
+  }
+
+  .program-wrapper-line {
+    border-top: 3px solid #033726;
+    margin: 1.1rem 9rem 2rem;
+  }
+
+  #faq {
+    background-color: #033726;
+    padding: 3rem 1rem;
+    color: white;
+  }
+
+  .faq-header p {
+    font-size: 1rem;
+  }
+
+  .faq-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+  }
+
+  .faq-wrapper-faq {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+  }
+
+  .faq-wrapper-faq:not(:first-child) {
+    margin-left: 0;
+  }
+
+  .faq-wrapper-faq-bit-body-info {
+    font-size: 1rem;
+  }
+
+  .faq-wrapper-faq h3 {
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+
+  .faq-wrapper-faq-bit-header-image {
+    border: 3px solid white;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    margin: 5px;
+    width: 50%;
+  }
+
+  .faq-header-line {
+    border-top: 3px solid white;
+    margin: 1.3rem 9rem 0;
+  }
+
+  .lower-nav-line {
+    border-top: 5px solid white;
+    margin: 1rem 7rem 2rem;
+  }
+
+  .faq-wrapper-faq-bit-body-header {
+    font-size: 1.5rem;
+  }
+
+  #rsvp {
+    text-align: center;
+    color: #033726;
+    background: url("/src/img/background-home.jpg");
+    background-size: cover;
+    font-size: 1rem;
+    padding: 1rem 0;
+  }
+
+  .rsvp-wrapper {
+    background-color: rgba(250, 235, 215, 0.6);
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 10px rgba(250, 235, 215, 0.5);
+    margin: 0 1rem;
+    padding: 0.5rem 0;
+  }
+
+  .rsvp-wrapper-line {
+    border-top: 3px solid #033726;
+    margin: 0 9rem;
+  }
+}
+
+@media all and (max-width: 800px) and (min-width: 601px) {
+    .upper-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+      }
+    
+      .header-section-logo-wrapper {
+        width: 100%;
+      }
+    
+      .header-section-logo-wrapper img {
+        width: 100%;
+      }
+    
+      .header-section-logo {
+        padding-top: 1.1rem;
+        padding-bottom: 0.3rem;
+      }
+    
+      .header-section-nav-ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0;
+      }
+    
+      .header-section-nav-ul li {
+        padding: 0.3rem 0.7rem;
+        border-radius: 1px;
+      }
+    
+      .header-section-nav-ul li a {
+        text-transform: uppercase;
+        font-weight: 900;
+        font-size: 1rem;
+      }
+    
+      #lower-nav h1 {
+        text-align: center;
+        margin: 0 0 1.5rem 0;
+        font-size: 2rem;
+        font-family: "Bad Script", cursive;
+      }
+    
+      #invitation {
+        text-align: center;
+        color: #033726;
+        background: url("/src/img/background-home.jpg");
+        background-size: cover;
+        font-size: 1rem;
+        padding: 1rem 0;
+      }
+    
+      .invitation-wrapper {
+        background-color: rgba(250, 235, 215, 0.6);
+        border-radius: 10px;
+        box-shadow: 0px 0px 15px 10px rgba(250, 235, 215, 0.5);
+        margin: 0 1rem;
+        padding: 0.5rem 0;
+      }
+    
+      .invitation-wrapper-line {
+        border-top: 3px solid #033726;
+        margin: 0 9rem;
+      }
+    
+      #bests {
+        background-color: #033726;
+        padding: 3rem 1rem;
+        color: white;
+      }
+    
+      .bests-header p {
+        font-size: 1rem;
+      }
+    
+      .bests-persons {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+      }
+    
+      .bests-person:first-child {
+        margin-right: 1rem;
+        margin-left: 1rem;
+      }
+    
+      .bests-person:last-child {
+        margin-left: 1rem;
+        margin-right: 1rem;
+      }
+    
+      .bests-person-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 1rem;
+      }
+    
+      .bests-person-info h3 {
+        text-align: center;
+        margin-bottom: 0.5rem;
+        font-size: 1.5rem;
+      }
+    
+      .bests-person-image {
+        border: 3px solid white;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+        margin: 5px;
+        width: 50%;
+      }
+    
+      .bests-person {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-top: 1rem;
+      }
+    
+      .bests-header-line {
+        border-top: 3px solid white;
+        margin: 1.3rem 9rem 0;
+      }
+    
+      #program {
+        text-align: center;
+        color: #033726;
+        background: url("/src/img/background-home.jpg");
+        background-size: cover;
+        font-size: 1rem;
+        padding: 1rem 0;
+      }
+    
+      .program-wrapper {
+        background-color: rgba(250, 235, 215, 0.6);
+        border-radius: 10px;
+        box-shadow: 0px 0px 15px 10px rgba(250, 235, 215, 0.5);
+        margin: 0 1rem;
+        padding: 0.5rem 0;
+      }
+    
+      .program-wrapper-line {
+        border-top: 3px solid #033726;
+        margin: 1.1rem 9rem 2rem;
+      }
+    
+      #faq {
+        background-color: #033726;
+        padding: 3rem 1rem;
+        color: white;
+      }
+    
+      .faq-header p {
+        font-size: 1rem;
+      }
+    
+      .faq-wrapper {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+      }
+    
+      .faq-wrapper-faq {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-top: 1rem;
+      }
+    
+      .faq-wrapper-faq:not(:first-child) {
+        margin-left: 0;
+      }
+    
+      .faq-wrapper-faq-bit-body-info {
+        font-size: 1rem;
+      }
+    
+      .faq-wrapper-faq h3 {
+        text-align: center;
+        margin-bottom: 0.5rem;
+      }
+    
+      .faq-wrapper-faq-bit-header-image {
+        border: 3px solid white;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+        margin: 5px;
+        width: 50%;
+      }
+    
+      .faq-header-line {
+        border-top: 3px solid white;
+        margin: 1.3rem 9rem 0;
+      }
+    
+      .lower-nav-line {
+        border-top: 5px solid white;
+        margin: 1rem 7rem 2rem;
+      }
+    
+      .faq-wrapper-faq-bit-body-header {
+        font-size: 1.5rem;
+      }
+
+      #rsvp {
+        text-align: center;
+        color: #033726;
+        background: url("/src/img/background-home.jpg");
+        background-size: cover;
+        font-size: 1rem;
+        padding: 1rem 0;
+      }
+    
+      .rsvp-wrapper {
+        background-color: rgba(250, 235, 215, 0.6);
+        border-radius: 10px;
+        box-shadow: 0px 0px 15px 10px rgba(250, 235, 215, 0.5);
+        margin: 0 1rem;
+        padding: 0.5rem 0;
+      }
+    
+      .rsvp-wrapper-line {
+        border-top: 3px solid #033726;
+        margin: 0 9rem;
+      }
+}
+
+@media all and (max-width: 1200px) and (min-width: 801px) {
+    .upper-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-content: space-between;
+      }
+
+      
+    
+      .header-section-logo-wrapper {
+        width: 100%;
+      }
+    
+      .header-section-logo-wrapper img {
+        width: 100%;
+      }
+    
+      .header-section-logo {
+        padding-top: 1.1rem;
+        padding-bottom: 0.3rem;
+      }
+    
+      .header-section-nav-ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0;
+      }
+    
+      .header-section-nav-ul li {
+        padding: 0.3rem 0.7rem;
+        border-radius: 1px;
+      }
+    
+      .header-section-nav-ul li a {
+        text-transform: uppercase;
+        font-weight: 900;
+        font-size: 1rem;
+      }
+    
+    
+
+      #lower-nav h1 {
+        text-align: center;
+        margin: 0 0 1.5rem 0;
+        font-size: 2rem;
+        font-family: "Bad Script", cursive;
+      }
+    
+      #invitation {
+        text-align: center;
+        color: #033726;
+        background: url("/src/img/background-home.jpg");
+        background-size: cover;
+        font-size: 1rem;
+        padding: 1rem 0;
+      }
+    
+      .invitation-wrapper {
+        background-color: rgba(250, 235, 215, 0.6);
+        border-radius: 10px;
+        box-shadow: 0px 0px 15px 10px rgba(250, 235, 215, 0.5);
+        margin: 0 1rem;
+        padding: 0.5rem 0;
+      }
+    
+      .invitation-wrapper-line {
+        border-top: 3px solid #033726;
+        margin: 0 9rem;
+      }
+    
+      #bests {
+        background-color: #033726;
+        padding: 3rem 1rem;
+        color: white;
+      }
+    
+      .bests-header p {
+        font-size: 1rem;
+      }
+    
+      .bests-persons {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+      }
+    
+      .bests-person:first-child {
+        margin-right: 1rem;
+        margin-left: 1rem;
+      }
+    
+      .bests-person:last-child {
+        margin-left: 1rem;
+        margin-right: 1rem;
+      }
+    
+      .bests-person-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 1rem;
+      }
+    
+      .bests-person-info h3 {
+        text-align: center;
+        margin-bottom: 0.5rem;
+        font-size: 1.5rem;
+      }
+    
+      .bests-person-image {
+        border: 3px solid white;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+        margin: 5px;
+        width: 30%;
+      }
+    
+      .bests-person {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 40%;
+        margin-top: 1rem;
+      }
+    
+      .bests-header-line {
+        border-top: 3px solid white;
+        margin: 1.3rem 9rem 0;
+      }
+    
+      #program {
+        text-align: center;
+        color: #033726;
+        background: url("/src/img/background-home.jpg");
+        background-size: cover;
+        font-size: 1rem;
+        padding: 1rem 0;
+      }
+    
+      .program-wrapper {
+        background-color: rgba(250, 235, 215, 0.6);
+        border-radius: 10px;
+        box-shadow: 0px 0px 15px 10px rgba(250, 235, 215, 0.5);
+        margin: 0 1rem;
+        padding: 0.5rem 0;
+      }
+    
+      .program-wrapper-line {
+        border-top: 3px solid #033726;
+        margin: 1.1rem 9rem 2rem;
+      }
+    
+      #faq {
+        background-color: #033726;
+        padding: 3rem 1rem;
+        color: white;
+      }
+    
+      .faq-header p {
+        font-size: 1rem;
+      }
+    
+      .faq-wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: center;
+        align-items: flex-start;
+      }
+    
+      .faq-wrapper-faq {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: center;
+        align-items: flex;
+        flex-wrap: wrap;
+        width: 50%;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-top: 1rem;
+      }
+    
+      .faq-wrapper-faq:not(:first-child) {
+        margin-left: 0;
+      }
+    
+      .faq-wrapper-faq-bit-body-info {
+        font-size: 1rem;
+      }
+    
+      .faq-wrapper-faq h3 {
+        text-align: center;
+        margin-bottom: 0.5rem;
+      }
+    
+      .faq-wrapper-faq-bit-header-image {
+        border: 3px solid white;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+        margin: 5px;
+        width: 40%;
+      }
+    
+      .faq-header-line {
+        border-top: 3px solid white;
+        margin: 1.3rem 9rem 0;
+      }
+    
+      .lower-nav-line {
+        border-top: 5px solid white;
+        margin: 1rem 7rem 2rem;
+      }
+    
+      .faq-wrapper-faq-bit-body-header {
+        font-size: 1.5rem;
+      }
+      
+      #rsvp {
+        text-align: center;
+        color: #033726;
+        background: url("/src/img/background-home.jpg");
+        background-size: cover;
+        font-size: 1rem;
+        padding: 1rem 0;
+      }
+    
+      .rsvp-wrapper {
+        background-color: rgba(250, 235, 215, 0.6);
+        border-radius: 10px;
+        box-shadow: 0px 0px 15px 10px rgba(250, 235, 215, 0.5);
+        margin: 0 1rem;
+        padding: 0.5rem 0;
+      }
+    
+      .rsvp-wrapper-line {
+        border-top: 3px solid #033726;
+        margin: 0 9rem;
+      }
+}
+
